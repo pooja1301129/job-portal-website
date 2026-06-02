@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Portal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Job Portal Website</h1>
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h3>Total Jobs</h3>
+            <p id="totalJobs">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Total Applicants</h3>
+            <p id="totalApplicants">0</p>
+        </div>
+
+    </div>
+
+    <div class="form-container">
+
+        <input type="text" id="jobTitle" placeholder="Job Title">
+
+        <input type="text" id="company" placeholder="Company Name">
+
+        <input type="text" id="location" placeholder="Location">
+
+        <input type="text" id="salary" placeholder="Salary">
+
+        <input type="text" id="experience" placeholder="Experience">
+
+        <select id="jobType">
+            <option>Full-Time</option>
+            <option>Part-Time</option>
+            <option>Internship</option>
+        </select>
+
+        <button onclick="addJob()">Add Job</button>
+
+    </div>
+
+    <input
+        type="text"
+        id="search"
+        placeholder="Search Jobs..."
+        onkeyup="searchJobs()"
+    >
+
+    <div id="jobList"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

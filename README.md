@@ -1,2 +1,14 @@
-# job-portal-website
-A modern Job Portal Website built using HTML, CSS and JavaScript with job management, applicant tracking and dashboard analytics.
+# Job Portal Website
+A professional job portal built using HTML, CSS and JavaScript.
+## Features
+- Add Jobs
+- Delete Jobs
+- Search Jobs
+- Apply for Jobs
+- Track Applicants
+- Job Type Management
+- Location Management
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
